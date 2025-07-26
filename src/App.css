@@ -3,12 +3,12 @@
   display: flex;
   align-items: center;
   gap: 30px;
-  /* padding: 30px; */
-  /* max-width: 900px; */
-  /* margin: 40px auto; */
-  background-color: #f9f9f9;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  background-color: #1f1f1f; /* YouTube dark background */
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  color: #f1f1f1;
 }
 
 /* Image Styling */
@@ -16,19 +16,21 @@
   width: 200px;
   height: 200px;
   object-fit: cover;
-  border-radius: 10px;
-  border: 3px solid #4a90e2;
+  border-radius: 8px;
+  border: 3px solid #ff0000; /* YouTube Red border */
+  box-shadow: 0 0 12px rgba(255, 0, 0, 0.4);
 }
-.infop{
+
+/* Shift content to the right side */
+.infop {
   display: flex;
-  padding-left: 900px;  
+  padding-left: 900px; /* You can reduce this if layout breaks on smaller screens */
 }
-.infoh{
-  color: blue;
+
+.infoh {
+  color: #ff0000; /* YouTube Red */
 }
-.headings {
-  margin: 40px auto;
-}
+
 /* Text Area Styling */
 .headings .infoh {
   display: flex;
@@ -39,13 +41,13 @@
 .headings h1 {
   font-size: 2rem;
   margin: 0;
-  color: #222;
+  color: #ffffff;
 }
 
 .headings p {
   margin: 6px 0;
   font-size: 1rem;
-  color: #555;
+  color: #cccccc;
 }
 
 /* Responsive Tweaks */
@@ -53,11 +55,16 @@
   .headings {
     flex-direction: column;
     text-align: center;
+    padding: 15px;
   }
 
   .headings img {
     width: 150px;
     height: 150px;
+  }
+
+  .infop {
+    padding-left: 0;
   }
 }
 
@@ -69,14 +76,14 @@
   justify-content: center;
   padding: 20px;
   margin-top: 30px;
-  background-color: #f9f9f9;
+  background-color: #1f1f1f;
   border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 /* Individual YouTube-style buttons */
 .Buttons button {
-  background-color: #03df33;  /* YouTube Red */
+  background-color: #ff0000; /* YouTube Red */
   color: white;
   border: none;
   padding: 12px 68px;
@@ -86,7 +93,7 @@
   cursor: pointer;
   transition: all 0.25s ease;
   font-family: 'Segoe UI', Tahoma, sans-serif;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
 }
 
 /* Hover effect */

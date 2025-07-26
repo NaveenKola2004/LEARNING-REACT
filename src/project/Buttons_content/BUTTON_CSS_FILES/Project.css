@@ -1,32 +1,36 @@
+/* ====== Education Heading (Main Title) ====== */
 .eduhed {
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
   margin-top: 40px;
-  color: #1e3c72;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  color: #ff0000; /* YouTube Red */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   animation: fadeDown 1s ease-out;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* ====== Resume Button ====== */
 .resumeButn {
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  background: #ff0000;
   color: #fff;
-  padding: 6px 10px;
+  padding: 6px 18px;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   border: none;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(199, 10, 10, 0.2);
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.3);
   cursor: pointer;
-  transition: all 0.4s ease;
+  transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .resumeButn:hover {
-  background: linear-gradient(135deg, #2a5298, #1e3c72);
+  background: #cc0000;
   transform: scale(1.05);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 28px rgba(255, 0, 0, 0.5);
 }
 
 .resumeButn:active::after {
@@ -42,27 +46,35 @@
   animation: ripple 0.6s ease-out;
   pointer-events: none;
 }
+
+/* ====== Subheading (Section Title) ====== */
 .headding {
   font-size: 2.5rem;
   font-weight: bold;
   text-align: left;
   margin-bottom: 2rem;
-  color: #222;
-  text-shadow: 1px 1px 5px #ccc;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(255, 0, 0, 0.5);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* ====== Project Cards ====== */
 .projecthead1,
 .projecthead2 {
-  background: #f5f5f5;
-  border-left: 5px solid #4caf50;
+  background: #1f1f1f;
+  border-left: 5px solid #ff0000;
   padding: 1rem;
   margin: 1rem 0;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .projecthead1:hover,
 .projecthead2:hover {
   transform: scale(1.02);
-  background: #e8f5e9;
+  background: #2a2a2a;
+  box-shadow: 0 10px 24px rgba(255, 0, 0, 0.3);
 }

@@ -1,39 +1,49 @@
+/* ====== Main Section Heading ====== */
 .eduhed {
   text-align: center;
   font-size: 1.8rem;
   font-weight: bold;
   margin-top: 40px;
-  color: #1e3c72;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  color: #ff0000; /* YouTube red */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   animation: fadeDown 1s ease-out;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* Headings for each education block */
+
+/* ====== Headings for each education block ====== */
 .profhead1, .profhead2, .profhead3, .profhead4, .profhead5 {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #2a2a2a;
+  color: #ffffff;
   margin-bottom: 8px;
   margin-top: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Cards / Blocks for each section */
+/* ====== Cards for each section ====== */
 .profcard1, .profcard2, .profcard3, .profcard4, .profcard5 {
-  background-color: #f5f7fa;
-  border: 1px solid #ddd;
-  border-left: 4px solid #2a5298; /* Subtle blue accent */
+  background-color: #1f1f1f; /* Dark card */
+  border: 1px solid #333;
+  border-left: 5px solid #ff0000; /* YouTube red accent */
   padding: 16px;
-  border-radius: 6px;
+  border-radius: 8px;
   margin: 0 auto 24px auto;
   max-width: 700px;
   box-sizing: border-box;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Text inside the cards */
+.profcard1:hover, .profcard2:hover, .profcard3:hover, .profcard4:hover, .profcard5:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(255, 0, 0, 0.3);
+}
+
+/* ====== Text inside cards ====== */
 .profcard1 p, .profcard2 p, .profcard3 p, .profcard4 p, .profcard5 p {
   font-size: 1rem;
-  color: #444;
-  line-height: 1.5;
+  color: #cccccc;
+  line-height: 1.6;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
