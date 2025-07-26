@@ -1,0 +1,101 @@
+/* Container holds image + text side-by-side */
+.headings {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  /* padding: 30px; */
+  /* max-width: 900px; */
+  /* margin: 40px auto; */
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.headings img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #4a90e2;
+}
+.infop{
+  display: flex;
+  padding-left: 900px;  
+}
+.infoh{
+  color: blue;
+}
+.headings {
+  margin: 40px auto;
+}
+/* Text Area Styling */
+.headings .infoh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headings h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #222;
+}
+
+.headings p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 600px) {
+  .headings {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .headings img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Container for all buttons */
+.Buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual YouTube-style buttons */
+.Buttons button {
+  background-color: #03df33;  /* YouTube Red */
+  color: white;
+  border: none;
+  padding: 12px 68px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Hover effect */
+.Buttons button:hover {
+  background-color: #cc0000;
+  transform: translateY(-2px) scale(1.05);
+}
+
+/* Optional active (click) effect */
+.Buttons button:active {
+  transform: scale(0.95);
+}
