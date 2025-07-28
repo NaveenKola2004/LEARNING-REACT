@@ -3,11 +3,11 @@
   display: flex;
   align-items: center;
   gap: 30px;
-  margin: 40px auto;
+  margin: 0px auto;
   background-color: #1f1f1f; /* YouTube dark background */
   border-radius: 12px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
-  padding: 20px;
+  padding: 0px;
   color: #f1f1f1;
 }
 

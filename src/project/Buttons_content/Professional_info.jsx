@@ -1,8 +1,8 @@
-import "./BUTTON_CSS_FILES/professional.css"
+// import "./BUTTON_CSS_FILES/professional.css"
 export function Professional_info(){
     const downloadResume =()=>{
         const link=document.createElement('a');
-        link.href='/src/project/PDFS/resume/NAVEEN.pdf';
+        link.href='/project/PDFS/resume/NAVEEN.pdf';
         link.download='Tony_Resume.pdf';
         link.click();
     }
