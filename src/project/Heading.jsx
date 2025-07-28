@@ -1,7 +1,7 @@
 export function Heading(){
     return (
         <div className="headings">
-            <img src="/project/PHOTOS/myphoto.jpg" alt="my profile photo">
+            <img src="/myphoto.jpg" alt="my profile photo">
             </img>
         <div>
             <h1 className="info">KOLA NAVEEN</h1>

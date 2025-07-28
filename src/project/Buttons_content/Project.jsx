@@ -2,13 +2,13 @@ import "./BUTTON_CSS_FILES/Project.css"
 export function Project(){
     const project1=()=>{
         const proje=document.createElement('a');
-        proje.href="/src/project/PDFS/projects/NAVEEN.pdf";
+        proje.href="/NAVEEN.pdf";
         proje.download="project1.pdf";
         proje.click();
     };
     const project2=()=>{
         const proje=document.createElement('a');
-        proje.href="/src/project/PDFS/projects/NAVEEN.pdf";
+        proje.href="/NAVEEN.pdf";
         proje.download="project2.pdf";
         proje.click();
     };

@@ -2,7 +2,7 @@
 export function Professional_info(){
     const downloadResume =()=>{
         const link=document.createElement('a');
-        link.href='/project/PDFS/resume/NAVEEN.pdf';
+        link.href='/NAVEEN.pdf';
         link.download='Tony_Resume.pdf';
         link.click();
     }

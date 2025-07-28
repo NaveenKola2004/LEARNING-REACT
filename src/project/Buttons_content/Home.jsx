@@ -11,8 +11,8 @@ Whether it's crafting clean frontends with React + Vite or building solid backen
                    <li>🛠️ Tips, bugs, and fixes I encounter</li>
                    <li>🎯 My journey from student to software developer</li>
         <div>
-            <img src="./src/project/PHOTOS/HOME_PHOTOS/photo1.jpg" alt="some photos here" className="images"></img>
-            <img src="./src/project/PHOTOS/HOME_PHOTOS/photo2.jpg" alt="some photos here" className="images"></img>
+            <img src="./photo1.jpg" alt="some photos here" className="images"></img>
+            <img src="./photo2.jpg" alt="some photos here" className="images"></img>
         </div>
                     </div>
         </>
